@@ -7,6 +7,7 @@ module Bamboozled
         new(fields)
       end
 
+      # rubocop:disable Metrics/MethodLength
       def self.all_names
         %w[
           address1
